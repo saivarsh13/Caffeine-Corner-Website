@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; 
+    color: #333; 
+}
+
+header {
+    background-color: #4b2e2e; 
+    color: black;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('coffee-hero.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.cta-button {
+    background-color: #a0522d; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #8b4513; 
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #fffaf0; 
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Introduction Section */
+.intro h2 {
+    color: #4b2e2e; 
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Gallery Section */
+.gallery h2 {
+    color: #4b2e2e; 
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #4b2e2e; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Form */
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin-top: 10px;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    margin-top: 10px;
+    background-color: #2a1303d8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #a0522d;
+}
+
+/* Store Hours Table */
+.hours table, .menu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.hours table th, .menu table th, .hours table td, .menu table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.hours table th, .menu table th {
+    background-color: #2a1303d8;
+    color: white;
+}
+
+.hours table tr:nth-child(even), .menu table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
